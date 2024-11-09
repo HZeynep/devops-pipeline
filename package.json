@@ -1,0 +1,19 @@
+# package.json içeriği
+{
+  "name": "simple-nodejs-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for CI/CD demo",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
+}
